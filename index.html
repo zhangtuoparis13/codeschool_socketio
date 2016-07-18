@@ -5,6 +5,13 @@
     <title>Hello World</title>
 </head>
 <body>
-
+<script src = "/node_modules/socket.io"></script>
+<script src = "node_modules/socket.io-client/socket.io.js"></script>
+<script>
+    var server =io.connect('http://localhost:8080');
+    server.on('messages',function (data) {
+        alert(data.hello);
+    });
+</script>
 </body>
 </html>
