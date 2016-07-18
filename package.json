@@ -1,0 +1,11 @@
+{
+  "name": "application-test-codeschool",
+  "version": "0.0.1",
+  "description": "An example module to illustrate the packages use",
+  "author": "tuo.zhang@telecom-bretagne.eu",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
